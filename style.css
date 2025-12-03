@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -6,7 +6,7 @@
   line-height: 18px;
   color:#515076;
   font-weight: 400;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 } 
 
 .product-list {
@@ -67,7 +67,7 @@
   line-height: 24px;
 }
 
-.product-price-lable {
+.product-price-label {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -87,7 +87,7 @@
 }
 
 .bg-container {
-  background-image: url("img/dandelions.png");
+  background-image: url(img/bg-dandelions.png);
   position: absolute;
   background-repeat: no-repeat;
   background-size: 790px;

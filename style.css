@@ -87,7 +87,7 @@
 }
 
 .bg-container {
-  background-image: url(img/bg-dandelions.png);
+  background-image: url("img/bg-dandelions.png");
   position: absolute;
   background-repeat: no-repeat;
   background-size: 790px;

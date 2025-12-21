@@ -1,7 +1,7 @@
 // Покрска всех карточек
 const productCards = document.querySelectorAll(".card-container");
 const changeColorButton = document.querySelector("#change-color-all-card");
-const greenColorHash = " #00FF00"
+const greenColorHash = "#00FF00"
 const blueColorHash = "#0000FF"
 changeColorButton.addEventListener("click", () => {
   productCards.forEach((card) => card.style.backgroundColor = greenColorHash);
@@ -30,10 +30,10 @@ function openGoogle() {
 }
 
 //Вывод консоль лог
-const outputConsoleButton = document. querySelector("#output-console-log")
-outputConsoleButton.addEventListener("click", () => outputConsolelog("ДЗ №4"))
+const outputConsoleButton = document.querySelector("#output-console-log")
+outputConsoleButton.addEventListener("click", () => outputConsoleLog("ДЗ №4"))
 
-function outputConsolelog(message) {
+function outputConsoleLog(message) {
   alert(message)
   console.log(message);
 }
@@ -46,6 +46,6 @@ const outputConsolelogHeadline = document.querySelector(".headline");
 //
 const colorButton = document.getElementById("color-button");
  colorButton.addEventListener("click", function() {
- this.classList.toggle("bg-yellow")
- this.classList.toggle("bg-blue")
+ colorButton.classList.toggle("bg-yellow")
+ colorButton.classList.toggle("bg-blue")
 })

@@ -97,3 +97,11 @@
   left: 0;
   top: -600px;
 }
+
+.bg-yellow {
+  background-color: #e0ff47;
+}
+
+.bg-blue {
+  background-color: #3742fa;
+}

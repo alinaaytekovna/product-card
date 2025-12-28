@@ -5,11 +5,11 @@ function showWeather(city, temperature) {
 showWeather("Тюмень", 30);
 
 // Создать функцию для проверки скорости света
-const speedOfLight = 299792458; 
+const SPEED_OF_LIGHT = 299792458; 
 function checkSpeed(speed) {
-  if (speed > speedOfLight) {
+  if (speed > SPEED_OF_LIGHT) {
     console.log("Сверхсветовая скорость");
-  } else if (speed < speedOfLight) {
+  } else if (speed < SPEED_OF_LIGHT) {
     console.log("Субсветовая скорость");
   } else {
     console.log("Скорость света");
@@ -19,14 +19,14 @@ checkSpeed(300000000);
 // Функция с покупкой товара
 const product = "Сумка";
 const price = 3000;
-function buyBag(budget) {
+function buyProduct(budget) {
   if (budget > price) {
     console.log(`${product} приобретён. Спасибо за покупку!`);
   } else {
     console.log(`Вам не хватает ${price - budget}$, пополните баланс`);
   }
 }
-buyBag(2500);
+buyProduct(2500);
 
 //Создать 1 функцию и именовать её по своему усмотрению
 const logSum = (a, b) => {
